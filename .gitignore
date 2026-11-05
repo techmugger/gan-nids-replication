@@ -1,0 +1,19 @@
+# data and large artefacts: never commit these
+data/
+cicids/
+MachineLearningCVE/
+*.csv.zip
+*.zip
+**/cache/
+*.npz
+*.log
+nohup.out
+# run folders created by the scripts (copy final tables into results/ instead)
+run*/
+paper_replica_out/
+paper_replica_demo/
+# python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
